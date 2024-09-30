@@ -1,0 +1,3 @@
+normally , we create a volume that the we can mount to any container(in our case /my-app-data) (if we dont create it when we run docker run -v... or dockercompose : docker creates it for us). it means that us when running a container we can control or create the directory that mounts the data inside of itself ( we are the host) and we create the container for our use. 
+for automatic data lounting when the user will not have the task to think about mounting the data in the container to his machine , we use docker compose.
+for the /app/data that the data is put there and we map it to the host's directory is created when initializing the image ( step 4 ig is creating the directory /app/data)!!!!! 
